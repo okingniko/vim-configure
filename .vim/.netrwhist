@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/usr/include/asm-generic'
+let g:netrw_dirhist_2='/root/Desktop/Monster'
+let g:netrw_dirhist_3='/root/Desktop/csapp'
+let g:netrw_dirhist_4='/root/.vim'
+let g:netrw_dirhist_5='/etc/cron.d'
+let g:netrw_dirhist_6='/root/Desktop/apue'
+let g:netrw_dirhist_7='/root/Desktop'
+let g:netrw_dirhist_8='/root/.vim'
