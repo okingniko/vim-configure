@@ -1,19 +1,19 @@
-set nu
-set hlsearch
-set autoindent 
-set shiftwidth=2
-set tabstop=2
-set expandtab
+set nu        "设置行号
+set hlsearch  "设置高亮
+set autoindent "设置自动缩进
+set shiftwidth=2 "设置自动缩进所使用的空白长度
+set tabstop=2   "定义tab所等同的空格长度
+set expandtab   "把tabs转换成空格
 "c/c++ setting
 "自动换行
-set textwidth=78
-set formatoptions+=MmB
+set textwidth=78  "设置行的最大宽度
+set formatoptions+=MmB 
 "set wrap
-set sm
-set ruler
+set sm    
+set ruler   "设置标尺,即最下面状态栏
 set background=dark
-set noendofline
-syntax on
+set noendofline "取消文件结束符
+syntax on     "设置语法检测
 
 "pathogen 配置
 execute pathogen#infect() 
@@ -39,7 +39,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
+" 支持c++11 
 let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = '-std=c++11'
 
